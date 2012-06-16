@@ -3,7 +3,7 @@
 /*
 Plugin Name: Folder Menu Vertical
 Plugin URI: http://web-dorado.com/
-Version: 2.0
+Version: 2.0.1
 Author: http://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
