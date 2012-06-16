@@ -7,19 +7,14 @@ Version: 2.0
 Author: http://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
-
-
-global $addflashonce;//Add flash code once
 $addflashonce=1;
-
-
 //add to head javascript
 function my_custom_js()
 {
 global $addflashonce;
 $Menu_Name=get_option('Menu_Name');
 
-if($Menu_Name !='- Select Menu -' && $addflashonce==1 && $Menu_Name)
+if($Menu_Name !='- Select Menu -' && $Menu_Name)
 {
 	echo  ' <script type="text/javascript" src="'.plugins_url( 'js/AC_RunActiveContent.js' , __FILE__ ).'"></script>
  			<script type="text/javascript" src="'.plugins_url( 'js/functions.js' , __FILE__ ).'"></script>';
@@ -38,11 +33,13 @@ function front_end_vertical($content)
 $url_swf=plugins_url( '' , __FILE__ );
 global $addflashonce;
 $wrand=mt_rand();
+global $post;
 $from_top=get_option('Distance_from_top').'px';
 $Menu_Name=get_option('Menu_Name');
 $Menu_Font=get_option('Menu_Font');
 $positoin=get_option('Position');
-if($Menu_Name !='- Select Menu -' && $addflashonce==1 && $Menu_Name)
+$mh_after_head = did_action( 'wp_enqueue_scripts' );
+if($Menu_Name !='- Select Menu -' && $addflashonce==1 && $Menu_Name && ($mh_after_head==1))
 {
 	$addflashonce=0;
 $FC_frontend=<<<HERE
@@ -194,17 +191,18 @@ else {setTimeout("initFlash_vertical()",500);}
 
 	document.body.appendChild(foldermenuverticalContainerDiv);
 
-</script>
-
+</script> 
 HERE;
 ?><?php
+echo $FC_frontend;
  $contenttt=$FC_frontend.$content;
-return $contenttt;
+return $content;
+
 }
 
 else
 {
-return $content;
+ return $content;
 }
 
 }
