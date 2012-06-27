@@ -31,7 +31,7 @@ echo '<dropdown>
 			 if($menu_item->menu_item_parent==0){
 				 if($k==0)
 				 {
-			 echo '<menu cap="'.$menu_item->title.'"
+			 echo '<menu cap="'.str_replace('"','',$menu_item->title).'"
 			 url = "'.$menu_item->url.'"
 			 window = "_self">';
 			   $k=1;
@@ -39,7 +39,7 @@ echo '<dropdown>
 			 else
 			 {
 				
-			 echo '</menu><menu cap="'.$menu_item->title.'"
+			 echo '</menu><menu cap="'.str_replace('"','',$menu_item->title).'"
 			 url = "'.$menu_item->url.'"
 			 window = "_self">';
 			 }
@@ -48,7 +48,7 @@ echo '<dropdown>
 		else
 		{
 			echo  
-			 '<submenu cap="'.$menu_item->title.'"		
+			 '<submenu cap="'.str_replace('"','',$menu_item->title).'"		
 				url = "'.$menu_item->url.'" 	 
 				window = "_self" >
 			</submenu>';

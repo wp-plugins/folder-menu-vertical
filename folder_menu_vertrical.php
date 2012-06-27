@@ -213,6 +213,182 @@ else
 add_action('the_content', 'front_end_vertical'); 
 
 
+function front_end_vertical_fotter()  
+{ 
+$url_swf=plugins_url( '' , __FILE__ );
+global $addflashonce;
+$wrand=mt_rand();
+global $post;
+$from_top=get_option('Distance_from_top').'px';
+$Menu_Name=get_option('Menu_Name');
+$Menu_Font=get_option('Menu_Font');
+$positoin=get_option('Position');
+if($Menu_Name !='- Select Menu -'  && $Menu_Name && $addflashonce==1)
+{
+	$addflashonce=0;
+$FC_frontend=<<<HERE
+       <div id="foldermenuverticalContainer" onmouseover="onmouseover_vertical();" onmouseout="onmouseout_vertical();" style="position:$positoin; left:0px; top:$from_top; overflow:hidden;width:50px; z-index:1000; height:1500px;">
+
+<script language="javascript">
+
+	if (typeof(AC_FL_RunContent)=="undefined") {
+
+		alert("This page requires AC_RunActiveContent.js.");
+
+	} else {
+
+		AC_FL_RunContent(
+
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+
+			'width', '1000',
+
+			'height', '3000',
+
+			'src', '$url_swf/Vertical$Menu_Font?wdrand=372906355',
+
+			'quality', 'high',
+
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+
+			'align', 'left',
+
+			'play', 'true',
+
+			'loop', 'true',
+
+			'scale', 'showall',
+
+			'wmode', 'transparent',
+
+			'devicefont', 'false',
+
+			'id', 'FolderMenuVerticalElem',
+
+			'name', 'FolderMenuVerticalElem',
+
+			'menu', 'true',
+
+			'allowFullScreen', 'false',
+
+			'allowScriptAccess','always',
+
+			'movie', '$url_swf/Vertical$Menu_Font?wdrand=1018799407',
+
+			'salign', 't',
+
+			'flashvars', 'xmlUrl=$url_swf/Folder_vertical.php?wdrand=1566406044'
+
+			);
+
+			
+
+	if(typeof(FolderMenuVerticalElem)=="undefined") 
+
+		initFlash_Moz_vertical();
+
+	else
+
+		initFlash_vertical();
+
+		
+
+		}
+
+
+
+	
+
+function onmouseover_vertical()
+
+{
+
+if(typeof(FolderMenuVerticalObj)!="undefined")
+
+	{
+
+		FolderMenuVerticalObj.TOtrigger=true;
+
+		FolderMenuVerticalObj.setHeightAndWidthTO();
+
+	}
+
+}
+
+	
+
+function onmouseout_vertical()
+
+{
+
+if(typeof(FolderMenuVerticalObj)!="undefined")
+
+	{
+
+		FolderMenuVerticalObj.TOtrigger=false;
+
+	}
+
+}
+
+	
+
+function initFlash_Moz_vertical()
+
+{
+
+if(typeof(document.FolderMenuVerticalElem.getWidth)=='function')
+
+	FolderMenuVerticalObj=new FolderMenuVertical("foldermenuverticalContainer",document.FolderMenuVerticalElem,"FolderMenuVerticalObj");
+
+else {setTimeout("initFlash_Moz_vertical()",500);}
+
+}
+
+
+
+function initFlash_vertical()
+
+{
+
+if(typeof(FolderMenuVerticalElem.getWidth)=='function')
+
+	FolderMenuVerticalObj=new FolderMenuVertical("foldermenuverticalContainer",FolderMenuVerticalElem,"FolderMenuVerticalObj");
+
+else {setTimeout("initFlash_vertical()",500);}
+
+}
+
+</script>
+
+<noscript>
+
+
+
+</noscript>
+
+</div>
+
+<script language="javascript">
+
+	var foldermenuverticalContainerDiv = document.getElementById('foldermenuverticalContainer');
+
+	document.body.appendChild(foldermenuverticalContainerDiv);
+
+</script> 
+HERE;
+?><?php
+echo $FC_frontend;
+}
+
+}
+
+
+
+//// add frot end hook
+add_action('wp_footer', 'front_end_vertical_fotter'); 
+
+
 
 //add menu hook
 add_action('admin_menu', 'Vertical_menu');
