@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Folder Menu Vertical ===
 Contributors: webdorado
 Donate link: http://web-dorado.com/products/folder-menu-wordpress.html
 Tags: menu, flash, flash menu, folder, folder menu, vertical menu, fixed position, fixed menu, sidebar menu, flash effects, customizable menu, customizable colors
