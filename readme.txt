@@ -90,8 +90,8 @@ Please make sure that you have activated the Folder Menu Vertical plugin, go to 
 3.  Folder Menu Vertical
 4.  Folder Menu Parameters
 
-== Folder Menu ==         
-= Step 1:  Installing folder menu.=   
+== Folder Menu user manual ==         
+= Step 1:  Installing folder menu. =   
 
 1.1 Minimum requirements of using Folder Menu.                        
 *	Wordpress 3.0+  
@@ -101,10 +101,10 @@ Please make sure that you have activated the Folder Menu Vertical plugin, go to 
 
 1.	Log in to the administrator panel.  
 2.	Go to Plugins Add > New > Upload.  
-3.	Click “Choose file” (“Browse”) and select the Folder Menu zip file.  
-4.	Click “Install Now” button to install Folder Menu.  
+3.	Click 'Choose file' ('Browse') and select the Folder Menu zip file.  
+4.	Click 'Install Now' button to install Folder Menu.  
 5.	If the installation of Folder Menu succeeded you will see the message in the picture. If any problem occurs with the installation of Folder Menu, please contact us info@web-dorado.com.  
-6.	Click “Activate Plugin” button for activating the folder menu.  
+6.	Click 'Activate Plugin' button for activating the folder menu.  
 
 = Step 2: Creating a menu =  
 2.1 On the left menu select Folder Menu  
@@ -117,5 +117,5 @@ Menu Hover Color. Choose what color the menu gets when being pointed on by the m
 Submenu Text Color. Change the color of the submenu text.  
 Submenu Hover Color. Choose what color the submenu gets when being pointed on by the mouse cursor.  
 Menu Font. Choose the font of the menu.  
-Press the “Save” button.  
+Press the 'Save' button.  
 
