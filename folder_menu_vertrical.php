@@ -45,6 +45,9 @@ if($Menu_Name !='- Select Menu -' && $addflashonce==1 && $Menu_Name && ($mh_afte
 $FC_frontend=<<<HERE
        <div id="foldermenuverticalContainer" onmouseover="onmouseover_vertical();" onmouseout="onmouseout_vertical();" style="position:$positoin; left:0px; top:$from_top; overflow:hidden;width:50px; z-index:1000; height:1500px;">
 
+	<style type="text/css">
+	#foldermenuverticalContainer embed {max-width: initial;}
+	</style>
 <script language="javascript">
 
 	if (typeof(AC_FL_RunContent)=="undefined") {
