@@ -1,6 +1,6 @@
 === Folder Menu Vertical ===
 Contributors: webdorado
-Donate link: http://web-dorado.com/products/folder-menu-wordpress.html
+Donate link: http://web-dorado.com/products/wordpress-menu-vertical.html
 Tags: menu, flash, flash menu, folder, folder menu, vertical menu, fixed position, fixed menu, sidebar menu, flash effects, customizable menu, customizable colors
 Requires at least: 3.0
 Tested up to: 3.4
@@ -10,7 +10,7 @@ Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ webs
 
 == Description ==
 
-####[WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html)
+####[WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)
 
 Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ website, designed to meet your needs and preferences. 
 
@@ -22,7 +22,7 @@ Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ webs
 *   Possibility to customize the menu using various parameters
 *   Possibility to fix the position of the menu during the scrolling.
 *   Nice Flash effects
-*   Interface fully integrated with WordPress administration, which allows to use [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html) with new or existing menus of WordPress.
+*   Interface fully integrated with WordPress administration, which allows to use [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html) with new or existing menus of WordPress.
 
 Folder Menu Vertical makes the Menu very convenient and easy-to-use.
 
@@ -30,7 +30,7 @@ Now you can organize your website pages more easily and present user-friendly we
 
 == Installation ==
 
-####Thank you for your interest in [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html).
+####Thank you for your interest in [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html).
 
 After downloading the ZIP file  
 1.   Login to your WordPress site and head over the 'Plugins' menu  
@@ -49,7 +49,7 @@ Once the plugin is activated,  you'll notice a menu on the left called "Folder M
 Yes. You can customize all colors of the Folder Menu and also can select the font of the Folder Menu from the parameters.    
     
     
-= 2. Can I fix the position of the [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html) while scrolling? =    
+= 2. Can I fix the position of the  [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)  while scrolling? =    
     
 Yes, there is an option to set the parameter in Folder Menu of the position fixed or unfixed while scrolling.     
     
@@ -71,7 +71,7 @@ Usually confirmation e-mail arrives during a minute after the purchase of Folder
     
 = 6. Folder Menu does not work or works in an improper way. What should I do? =    
     
-We did our best to have a universal product which will work on any browser, template and will not conflict with other extensions. As any case of such kind of a problem  is unique, please contact us giving the link of the website where the problem has occurred and [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html) is installed. We will try to answer within 24 hours.    
+We did our best to have a universal product which will work on any browser, template and will not conflict with other extensions. As any case of such kind of a problem  is unique, please contact us giving the link of the website where the problem has occurred and [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html) is installed. We will try to answer within 24 hours.    
     
     
 = 7. I wrote an e-mail concerning Folder Menu and have not received a respond. =    
@@ -85,15 +85,15 @@ Please make sure that you have activated the Folder Menu Vertical plugin, go to 
     
 
 == Screenshots ==
-1.  [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html)
-2.  [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html)
-3.  [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html)
+1.  [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)
+2.  [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)
+3.  [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)
 4.  Folder Menu Parameters
 
 == Folder Menu user manual ==         
 = Step 1:  Installing folder menu. =   
 
-1.1 Minimum requirements of using [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html).                        
+1.1 Minimum requirements of using [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html).                        
 *	Wordpress 3.0+  
 *	PHP 5.x  
 *	MySQL 5.x  
@@ -103,7 +103,7 @@ Please make sure that you have activated the Folder Menu Vertical plugin, go to 
 2.	Go to Plugins Add > New > Upload.  
 3.	Click 'Choose file' ('Browse') and select the Folder Menu zip file.  
 4.	Click 'Install Now' button to install Folder Menu.  
-5.	If the installation of Folder Menu succeeded you will see the message in the picture. If any problem occurs with the installation of [WordPress vertical menu](http://web-dorado.com/products/folder-menu-wordpress.html), please contact us info@web-dorado.com.  
+5.	If the installation of Folder Menu succeeded you will see the message in the picture. If any problem occurs with the installation of [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html), please contact us info@web-dorado.com.  
 6.	Click 'Activate Plugin' button for activating the folder menu.  
 
 = Step 2: Creating a menu =  
