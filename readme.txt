@@ -49,9 +49,9 @@ Once the plugin is activated,  you'll notice a menu on the left called "Folder M
 Yes. You can customize all colors of the Folder Menu and also can select the font of the Folder Menu from the parameters.    
     
     
-= 2. Can I fix the position of the [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html) while scrolling? =    
+= 2. Can I fix the position of the Folder Menu while scrolling? =    
     
-Yes, there is an option to set the parameter in Folder Menu of the position fixed or unfixed while scrolling.     
+Yes, there is an option in [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html) to set the position fixed or unfixed while scrolling.     
     
     
 = 3. On which WordPress versions does Folder Menu work? =    
