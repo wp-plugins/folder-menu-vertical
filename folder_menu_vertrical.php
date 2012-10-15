@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Plugin Name: Folder Menu Vertical
+Plugin Name: Wordpress Menu Plugin
 Plugin URI: http://web-dorado.com/
 Version: 2.0
 Author: http://web-dorado.com/
