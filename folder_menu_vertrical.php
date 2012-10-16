@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Plugin Name: Wordpress Menu Plugin
+Plugin Name: Wordpress Menu
 Plugin URI: http://web-dorado.com/
 Version: 2.0
 Author: http://web-dorado.com/
