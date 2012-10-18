@@ -33,7 +33,7 @@ echo '<dropdown>
 				 {
 			 echo '<menu cap="'.str_replace('"','',$menu_item->title).'"
 			 url = "'.$menu_item->url.'"
-			 window = "_self">';
+			 window = "'.(($menu_item->target) ? '_blank' : '_self').'">';
 			   $k=1;
 				 }
 			 else
@@ -41,7 +41,7 @@ echo '<dropdown>
 				
 			 echo '</menu><menu cap="'.str_replace('"','',$menu_item->title).'"
 			 url = "'.$menu_item->url.'"
-			 window = "_self">';
+			 window = "'.(($menu_item->target) ? '_blank' : '_self').'">';
 			 }
 			 
 		}
@@ -50,7 +50,7 @@ echo '<dropdown>
 			echo  
 			 '<submenu cap="'.str_replace('"','',$menu_item->title).'"		
 				url = "'.$menu_item->url.'" 	 
-				window = "_self" >
+				window = "'.(($menu_item->target) ? '_blank' : '_self').'" >
 			</submenu>';
 		}
 	 }
