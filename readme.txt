@@ -3,7 +3,7 @@ Contributors: webdorado
 Donate link: http://web-dorado.com/products/wordpress-menu-vertical.html
 Tags: menu, flash, flash menu, folder, folder menu, vertical menu, fixed position, fixed menu, sidebar menu, flash effects, customizable menu, customizable colors
 Requires at least: 3.0
-Tested up to: 3.4
+Tested up to: 3.5
 Stable tag: trunk
 
 Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ website, designed to meet your needs and preferences.
