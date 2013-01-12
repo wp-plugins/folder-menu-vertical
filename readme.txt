@@ -1,4 +1,4 @@
-=== Folder Menu Vertical ===
+=== WordPress Menu Vertical ===
 Contributors: webdorado
 Donate link: http://web-dorado.com/products/wordpress-menu-vertical.html
 Tags: menu, flash, flash menu, folder, folder menu, vertical menu, fixed position, fixed menu, sidebar menu, flash effects, customizable menu, customizable colors
@@ -99,7 +99,7 @@ Please make sure that you have activated the [WordPress menu plugin](http://word
 *	MySQL 5.x  
 1.2 Perform a new installation of Folder Menu.  
 
-1.	Log in to the administrator panel.  
+1.	Log in to the administrator panel to install Foler Menu.  
 2.	Go to Plugins Add > New > Upload.  
 3.	Click 'Choose file' ('Browse') and select the Folder Menu zip file.  
 4.	Click 'Install Now' button to install Folder Menu.  
@@ -109,13 +109,13 @@ Please make sure that you have activated the [WordPress menu plugin](http://word
 = Step 2: Creating a menu =  
 2.1 On the left menu select Folder Menu  
 Menu Name. Select a menu from the existing list.  
-Position. Define the position of the menu during the scrolling.  
-Distance from top. Define the distance of the menu from the top.  
+Position of a menu. Define the position of the menu during the scrolling.  
+Distance from top of the menu. Define the distance of the menu from the top.  
 Menu Background Color. Change the background color of the menu.  
 Menu Text Color. Change the color of the menu text.  
 Menu Hover Color. Choose what color the menu gets when being pointed on by the mouse cursor.  
-Submenu Text Color. Change the color of the submenu text.  
-Submenu Hover Color. Choose what color the submenu gets when being pointed on by the mouse cursor.  
+The menu's submenu Text Color. Change the color of the submenu text.  
+The menu's submenu Hover Color. Choose what color the submenu gets when being pointed on by the mouse cursor.  
 Menu Font. Choose the font of the menu.  
-Press the 'Save' button.  
+Press the 'Save' button to save the menu.  
 
