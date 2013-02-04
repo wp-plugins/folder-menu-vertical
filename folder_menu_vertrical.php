@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: Wordpress Menu
-Plugin URI: http://webdorado.org/
+Plugin URI: http://web-dorado.com/
 Version: 2.1
-Author: http://webdorado.org/
+Author: http://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
 $addflashonce=1;
@@ -407,8 +407,8 @@ function Manage_Vertical_menu()
 {
 	echo '<script src="'.plugins_url( 'jscolor/jscolor.js' , __FILE__ ).'"></script>';
 	echo '	<div style="text-align:left;font-size:16px;padding:20px; padding-right:50px">
-		<a href="http://webdorado.org/files/fromFolderMenu.php?from=wp" target="_blank" style="color:red; text-decoration:none;">
-		<img src="http://webdorado.org/images/header_paypal.png" border="0" alt="www.webdorado.org" width="215"><br />
+		<a href="http://web-dorado.com/files/fromFolderMenu.php?from=wp" target="_blank" style="color:red; text-decoration:none;">
+		<img src="http://web-dorado.com/images/header_paypal.png" border="0" alt="www.web-dorado.com" width="215"><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;Get the full version<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;(without a link to our site)
 		</a>
