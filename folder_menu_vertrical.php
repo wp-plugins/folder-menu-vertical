@@ -3,7 +3,7 @@
 /*
 Plugin Name: Wordpress Menu
 Plugin URI: http://web-dorado.com/
-Version: 2.1
+Version: 2.2
 Author: http://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -23,7 +23,7 @@ if($Menu_Name !='- Select Menu -' && $Menu_Name)
 
 
 // hook for adding js code
-add_action('wp_head', 'my_custom_js');
+add_action('wp_head', 'my_custom_js',0);
 
 
 
