@@ -3,7 +3,7 @@
 /*
 Plugin Name: Wordpress Menu
 Plugin URI: http://web-dorado.com/
-Version: 2.0
+Version: 2.0.1
 Author: http://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -409,8 +409,8 @@ function Manage_Vertical_menu()
 	echo '	<div style="text-align:left;font-size:16px;padding:20px; padding-right:50px">
 		<a href="http://web-dorado.com/files/fromFolderMenu.php?from=wp" target="_blank" style="color:red; text-decoration:none;">
 		<img src="http://web-dorado.com/images/header_paypal.png" border="0" alt="www.web-dorado.com" width="215"><br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Get the full version<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;(without a link to our site)
+		If you want to have more then 3 menus</br> or more then 5 submenus, <br />
+		you can buy the full version of Folder Menu here
 		</a>
 	</div>';
 	echo "<h2>" . __( 'Folder Menu Parametrs', 'oscimp_trdom' ) . "</h2>";
@@ -442,7 +442,28 @@ function Manage_Vertical_menu()
         
          $Menu_Font = $_POST['Menu_Font'];  
         update_option('Menu_Font', $Menu_Font);
-		
+		$menu_items=wp_get_nav_menus();
+		foreach($menu_items as $menu_item ){
+    if($Menu_Name===$menu_item->name)
+	$menu_count_all=$menu_item->count;
+	}
+	
+	foreach($menu_items as $menu_item1 ){
+	if($Menu_Name == $menu_item1->name)
+	{
+	  $menu_id=$menu_item1->term_id;
+	}
+	}
+	$menu_count=0;
+	$menu_itemsss = wp_get_nav_menu_items($menu_id);
+	
+	foreach((array) $menu_itemsss as $key => $menu_itemss)
+		 {			 
+			 if($menu_itemss->menu_item_parent==0){
+				$menu_count++;					
+		}		
+	 }
+	 $submenu_count=$menu_count_all-$menu_count;	
         ?>  
         <div class="updated"><p><strong><?php _e('Options saved.' ); ?></strong></p></div>  
         <?php  
@@ -461,6 +482,7 @@ function Manage_Vertical_menu()
          $Submenu_Hover_Color=get_option('Submenu_Hover_Color'); 
 		 $Menu_Font=get_option('Menu_Font');
     }  
+	
 ?>
 
 <form method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
@@ -472,6 +494,7 @@ function Manage_Vertical_menu()
 <select name="Menu_Name" style="width:200px">
 <option value="- Select Menu -"  <?php if($Menu_Name==='- Select Menu -') echo ' selected="selected"' ?>>- Select Menu -</option>
 <?php			$menu_items=wp_get_nav_menus();
+
 			foreach($menu_items as $menu_item ){
 ?>
 <option value="<?php echo $menu_item->name ?>" <?php if($Menu_Name===$menu_item->name) echo ' selected="selected"' ?>><?php echo $menu_item->name ?></option>
