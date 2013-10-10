@@ -2,9 +2,10 @@
 
 /*
 Plugin Name: Wordpress Menu
-Plugin URI: http://web-dorado.com/
+Plugin URI: http://web-dorado.com/products/wordpress-menu-vertical.html
+Description: Folder Menu Vertical is a WordPress Flash menu module for your website, designed to meet your needs and preferences.
 Version: 2.0.1
-Author: http://web-dorado.com/
+Author: http://web-dorado.com
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
 $addflashonce=1;
