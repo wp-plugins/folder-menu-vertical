@@ -1,7 +1,7 @@
 === WordPress Menu Vertical ===
 Contributors: webdorado
 Donate link: http://web-dorado.com/products/wordpress-menu-vertical.html
-Tags: menu, menus, navigation menu, nav,nav menu,menu builder, dropdown, drop down, wp_nav_menu, customizable colors, customizable menu, fixed menu, fixed position, flash, flash effects, flash menu, sidebar menu, submenu, vertical menu ,active menu, vertical, custom-menu, custom menus
+Tags: menu, menus, navigation menu, nav,nav menu,menu builder, dropdown, drop down, wp_nav_menu, fixed menu, flash, flash menu, sidebar menu, submenu, vertical menu ,active menu, vertical, custom-menu, custom menus
 Requires at least: 3.0
 Tested up to: 3.7.1
 Stable tag: 2.0.1
