@@ -9,6 +9,8 @@ Stable tag: 2.0.1
 Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ website, designed to meet your needs and preferences.
 
 == Description ==
+Folder menu is a vertical dynamic menu with nice flash effects. It will make your website navigation modern stylish and easy. Free to try!   
+   
 [WordPress vertical menu](http://web-dorado.com/products/wordpress-menu-vertical.html)
 
 Folder Menu Vertical is a flash dynamic menu module for your WordPress 3.0+ website, designed to meet your needs and preferences. 
