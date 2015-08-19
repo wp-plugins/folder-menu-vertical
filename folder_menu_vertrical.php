@@ -4,7 +4,7 @@
 Plugin Name: Wordpress Menu
 Plugin URI: http://web-dorado.com/products/wordpress-menu-vertical.html
 Description: Folder Menu Vertical is a WordPress Flash menu module for your website, designed to meet your needs and preferences.
-Version: 2.0.1
+Version: 2.0.2
 Author: http://web-dorado.com
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -415,7 +415,7 @@ function Manage_Vertical_menu()
 		</a>
 	</div>';
 	echo "<h2>" . __( 'Folder Menu Parametrs', 'oscimp_trdom' ) . "</h2>";
-	if($_POST['Fold_men_vert'] == 'YY') {  
+	if(isset($_POST['Fold_men_vert']) && $_POST['Fold_men_vert'] == 'YY') {  
         //update display
         $Menu_Name = $_POST['Menu_Name'];  
         update_option('Menu_Name', $Menu_Name);  
